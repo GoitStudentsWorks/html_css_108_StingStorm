@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/html_css_108_StingStorm/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vyshyvanka Vibes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    
+    <script type="module" crossorigin src="/html_css_108_StingStorm/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/html_css_108_StingStorm/assets/index-bfe792e0.css">
+  </head>
+  <body>
+    <!-- ====== Header - Людмила Кравчук -- Dev ====== -->
+    <header class="header">
+  <div class="header-container container">
+    <nav class="nav-header">
+      <a href="./index.html" class="logo">
+        <img src="/html_css_108_StingStorm/assets/logo-d9917444.svg" width="44" height="39" alt="site logo" />
+      </a>
+      <ul class="nav-list-header">
+        <li>
+          <a href="#about-us" class="nav-link-header">about us</a>
+        </li>
+        <li>
+          <a href="#our-collection" class="nav-link-header">our collection</a>
+        </li>
+        <li>
+          <a href="#customer-order" class="nav-link-header">customer order</a>
+        </li>
+        <li>
+          <a href="#testimonials" class="nav-link-header">testimonials</a>
+        </li>
+      </ul>
+    </nav>
+    <address class="address">
+      <a class="address-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+    </address>
+
+    <div class="socials-container-header">
+      <ul class="socials-list-header">
+        <li class="socials-list-item-header">
+          <a
+            class="social-link-header"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+          >
+            <svg class="social-link-icon-header" width="28" height="28">
+              <use href="/html_css_108_StingStorm/assets/icons-80852323.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-list-item-header">
+          <a
+            class="social-link-header"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+          >
+            <svg class="social-link-icon-header" width="28" height="28">
+              <use href="/html_css_108_StingStorm/assets/icons-80852323.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-list-item-header">
+          <a
+            class="social-link-header"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+          >
+            <svg class="social-link-icon-header" width="28" height="28">
+              <use href="/html_css_108_StingStorm/assets/icons-80852323.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <button
+        class="mobile-menu-btn js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="mobile-menu-icon">
+          <use href="/html_css_108_StingStorm/assets/icons-80852323.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <!-- ====== Hero -- Тетяна Осадча -- Dev ====== -->
+      <section class="section-hero">
+  <div class="container container-hero">
+    <div class="container-hero-inform">
+      <div class="shell-hero">
+        <h1 class="hero-title">
+          Reviving the traditional
+          <span class="brand-text-accent">Ukrainian</span> artistry in every
+          stitch.
+        </h1>
+
+        <div class="box-hero-btn">
+          <a class="main-btn hero-btn" href="#customer-order">
+            Order
+            <svg class="hero-btn-icon" width="26" height="10">
+              <use href="/html_css_108_StingStorm/assets/icons-80852323.svg#icon-arrow"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="box-hero-promo">
+        <img
+          class="hero-promo-icon"
+          srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAMAAABEQrEuAAAAP1BMVEUAAADkz3Dt2Xno2Hjs2Xnr13js2Xnt2Xns2nnt2nns2Xjq13jv34Ds2Xnt2nns2Xnq13ft2Xns13jr2Xns2XltW5UjAAAAFHRSTlMAEN8gcECAz7+fkGAQr4/vMO9gUBmpO0UAAAEtSURBVEjHrZZbjsMgDEWNeQQIIWl797/WIQqRijRo7GnPNxfjB7ZpwoqVVBgGGxLgQj8WAIQuDo7mMNhTw6KxW2p4BtMc9KsTTrZmoKLxhwJ8vHCxesbJ3COL37FTxSFXdLN+ovDXITO8ZonV+TpRVP+sG7/7U3YIGF6XISHRxcSBmTs3USBYxoISKMZiLgLFmA+JDWeoY118QER09vSAoYEdbdCxkFXasM2NRWPBUKMkSEl3uAJk5PG3qnJYISPcCdf6YVSxsvSPfCzQsenr6qpdiHhEZ/X/Q5XDUbBKbAwKScQifdSvkrZ0LUTs5r1b8ZafPs8u9y7HZejUxgjmBxn5VDu+OAcLTtjf+XwdDMF0zoZ620t305DsDDsaw86g2EtKcCSgzHcf/X71A3lzc0LVSgzJAAAAAElFTkSuQmCC 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAABiCAMAAACce/Y8AAAAP1BMVEUAAADt2Xno2Hjr13jt2Xnp1HXr2Hns2nns2Xnq2Hjr13jq13js2Xns2Xjt2Xns2Xnt23rt2nrs13js1nbs2XnqpMbQAAAAFHRSTlMA3yBA7xBwv58wgGBQkM+vf29gUFmyahsAAAKOSURBVGjevNhbcqwwDATQlt/mOcnt/a/1TiV4DFPJVOxYOZ/8qIQaYUCjxckCVUZI56Ep8W6FIsMPGaNkiyc7P0Q8sQZdZlLM05XDtXbeyIAekXc3nAgPgpM33m3oISQvjdz4MKEwsRTt4PjpVgNb1OC+Of6iBItoSmCrtbRQoIPng5tLYCt7tFD4vmegStYKL8TayBODdpkN+kpYNrFot7DJP7R7Z5MZ7QKbBPyAtxknE5tMODHWf/e24bZPy1FoY4OyfX1+n5I4UvzrG7PFNUQ2SmHdhQ+hJ6QDEuY4kKDomm9/hr3jOAZf2jlM6tlKgzZW1Bp2FRSGrTLw10fSVWvYlVVLbCVKw66Mdhf25jiEhPxVmJZ17BpMi8eJCdFxvFiasatQjSQLzFQ2I1FZQqCyGZioagKg20cofwSoxC04ZKEKyZeToAIxgG6NzeDC7xwsejxLHCq9+EJVPKsZDuWBv79R/n+7ZrfkIAxCYfIHRk3c3eH9n3VvykXUZkYF2870ewCZCCchnBArs6zW4Sszf5wsJIb9BnLXNvjLhqDMygz5uaE9wBvagzuaHAiDZatWwkMXSKxPJPRt26y7mFjmBFsyKkWJY4Bn+O9FrDM70D/5Crzwaq+ndLRLtkDwumHRwGosvYo1TfjEiox2yRZix0zQIvSndm4peDj3hIVqXxrJMUc3jH85nZhFineY53Gp0gluSMFrmQs5JAuL5D2NnqN21Xuabp4Pka+GoD0DtJGOv2jjovy49pNTY+MqmNGlaYY1zGhwsoSdk935lUDjhRDk9/Q+rm+iDs5QRbS95w0SmeAMyFzzvlSmja85wSl8gBX05GQOGbTIUrCGFClYO1KUgrVjdnGGY/wDggrPx4SqvzwAAAAASUVORK5CYII= 2x"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAMAAABEQrEuAAAAP1BMVEUAAADkz3Dt2Xno2Hjs2Xnr13js2Xnt2Xns2nnt2nns2Xjq13jv34Ds2Xnt2nns2Xnq13ft2Xns13jr2Xns2XltW5UjAAAAFHRSTlMAEN8gcECAz7+fkGAQr4/vMO9gUBmpO0UAAAEtSURBVEjHrZZbjsMgDEWNeQQIIWl797/WIQqRijRo7GnPNxfjB7ZpwoqVVBgGGxLgQj8WAIQuDo7mMNhTw6KxW2p4BtMc9KsTTrZmoKLxhwJ8vHCxesbJ3COL37FTxSFXdLN+ovDXITO8ZonV+TpRVP+sG7/7U3YIGF6XISHRxcSBmTs3USBYxoISKMZiLgLFmA+JDWeoY118QER09vSAoYEdbdCxkFXasM2NRWPBUKMkSEl3uAJk5PG3qnJYISPcCdf6YVSxsvSPfCzQsenr6qpdiHhEZ/X/Q5XDUbBKbAwKScQifdSvkrZ0LUTs5r1b8ZafPs8u9y7HZejUxgjmBxn5VDu+OAcLTtjf+XwdDMF0zoZ620t305DsDDsaw86g2EtKcCSgzHcf/X71A3lzc0LVSgzJAAAAAElFTkSuQmCC"
+          alt="star"
+          width="51"
+          height="52"
+        />
+        <p class="hero-promo-text">all embroidery is made by hand</p>
+      </div>
+    </div>
+
+    <div
+      class="container-hero-img"
+      data-aos="fade-right"
+      data-aos-duration="1500"
+    >
+      <picture class="hero-foto-picture">
+        <source
+          media="(min-width: 1440px)"
+          srcset="/html_css_108_StingStorm/assets/hero-img-desk-6d0e7b74.jpg 1x, /html_css_108_StingStorm/assets/hero-img-desk@2x-38b62734.jpg 2x"
+          width="392"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/html_css_108_StingStorm/assets/hero-img-desk-6d0e7b74.jpg 1x, /html_css_108_StingStorm/assets/hero-img-desk@2x-38b62734.jpg 2x"
+          width="392"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/html_css_108_StingStorm/assets/hero-img-tab-6b4521b3.jpg 1x, /html_css_108_StingStorm/assets/hero-img-tab@2x-1b13097b.jpg 2x"
+          width="413"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/html_css_108_StingStorm/assets/hero-img-mob-b35edc5e.jpg 1x, /html_css_108_StingStorm/assets/hero-img-mob@2x-789fd78e.jpg 2x"
+          width="335"
+        />
+        <img
+          class="hero-foto-img"
+          src="/html_css_108_StingStorm/assets/hero-img-desk-6d0e7b74.jpg"
+          alt="img-girl"
+          width="335"
+          height="545"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+
+      <!-- ====== About Us -- Daryna Kurytsyna -- Dev ====== -->
+      <section class="section-padding about-us-section" id="about-us">
+  <div class="container about-us-container">
+    <div class="about-us-description">
+      <h2 class="section-title section-about-title">About Us</h2>
+      <ul>
+        <li class="about-us-item">
+          <p class="section-text">
+            The store "Vyshyvanka Vibes" is a place where traditional Ukrainian
+            vyshyvanka comes to life with new zest and style. Our store offers a
+            wide selection of high-quality and authentic embroidery, which
+            combines the elegance of traditional needlework and modern design.
+          </p>
+        </li>
+        <li class="about-us-item">
+          <p class="section-text">
+            In "Vyshyvanka Vibes" you will find various models of embroidery,
+            from classic to modern, corresponding to the latest fashion trends.
+            Our embroidery is made using natural fabrics and is embroidered by
+            highly qualified craftsmen who convey the beauty of Uniankrai
+            culture in every detail.We believe that vyshyvanka is not just
+            clothing, but a symbol of national pride, the heritage of our
+            ancestors and a way of expressing one's individuality. Each
+            embroidery from "Vyshyvanka Vibes" has its own unique history and
+            symbolism, which gives it a special meaning.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="about-us-photo-block"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+    >
+      <picture>
+        <source
+          class="about-us-photo"
+          srcset="/html_css_108_StingStorm/assets/about-us-img-desk-lg-35ac70fc.jpg 1x, /html_css_108_StingStorm/assets/about-us-img-desk-lg@2x-708d15c2.jpg 2x"
+          media="(min-width: 1440px)"
+          width="709"
+          height="545"
+        />
+        <source
+          class="about-us-photo"
+          srcset="/html_css_108_StingStorm/assets/about-us-img-desk-sm-8c4b0de9.jpg 1x, /html_css_108_StingStorm/assets/about-us-img-desk-sm@2x-7c8e28fe.jpg 2x"
+          media="(min-width: 1280px)"
+          width="594"
+          height="545"
+        />
+        <source
+          class="about-us-photo"
+          srcset="/html_css_108_StingStorm/assets/about-us-img-tab-5b59735a.jpg 1x, /html_css_108_StingStorm/assets/about-us-img-tab@2x-b24b75f6.jpg 2x"
+          media="(min-width: 768px)"
+          width="704"
+          height="545"
+        />
+        <source
+          class="about-us-photo"
+          srcset="/html_css_108_StingStorm/assets/about-us-img-mob-fe57ff96.jpg 1x, /html_css_108_StingStorm/assets/about-us-img-mob@2x-18af857d.jpg 2x"
+          media="(max-width: 767px)"
+          width="335"
+          height="499"
+        />
+
+        <img
+          src="/html_css_108_StingStorm/assets/about-us-img-tab-5b59735a.jpg"
+          alt="girl-and-boy-photo"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+
+      <!-- ====== Our Collection -- Mariia Ostapets -- Dev ====== -->
+      <section class="our-collection section-padding" id="our-collection">
+  <div class="container">
+    <h2 class="our-collection-title section-title">Our collection</h2>
+    <ul class="our-collection-list">
+      <li class="our-collection-item">
+        <div class="flip-card first-item-mob">
+          <div class="flip-card-inner">
+            <div class="our-collection-item-img-container first-item-mob">
+              <picture
+                ><source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-1-desk-lg-7ab55cb8.jpg 1x, /html_css_108_StingStorm/assets/collection-img-1-desk-lg@2x-a6070955.jpg 2x"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-1-desk-sm-c69a2d2c.jpg 1x, /html_css_108_StingStorm/assets/collection-img-1-desk-sm@2x-bfc8994b.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-1-tab-a486dd8d.jpg 1x, /html_css_108_StingStorm/assets/collection-img-1-tab@2x-bcd8cab7.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-1-mob-55149b28.jpg 1x, /html_css_108_StingStorm/assets/collection-img-1-mob@2x-8c5dc25a.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html_css_108_StingStorm/assets/collection-img-1-desk-lg-7ab55cb8.jpg"
+                  alt="August Poltava women's blousering"
+                />
+              </picture>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                The black women's shirt is flared to the bottom and has side
+                decorative reliefs on the front and back. <br /><br />
+                The round neckline is decorated with embroidery.<br /><br />
+                The sleeves are gathered at the top and bottom, the cuffs have a
+                hidden button.<br /><br />
+                The fabric is linen<br /><br />
+                The technique of execution is smooth (machine embroidery)<br /><br />
+                Threads are cotton
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="our-collection-item-text-container">
+          <h3 class="our-collection-item-title">
+            August Poltava women's blousering
+          </h3>
+          <p class="our-collection-item-price">3300 UAH</p>
+        </div>
+      </li>
+      <li class="our-collection-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="our-collection-item-img-container">
+              <picture
+                ><source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-2-desk-lg-0eeb03b5.jpg 1x, /html_css_108_StingStorm/assets/collection-img-2-desk-lg@2x-5554c60d.jpg 2x"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-2-desk-sm-434bdb82.jpg 1x, /html_css_108_StingStorm/assets/collection-img-2-desk-sm@2x-b255ee0e.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-2-tab-02c2a7bb.jpg 1x, /html_css_108_StingStorm/assets/collection-img-2-tab@2x-ae80bfd7.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-2-mob-e163d1ad.jpg 1x, /html_css_108_StingStorm/assets/collection-img-2-mob@2x-e15d3e17.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html_css_108_StingStorm/assets/collection-img-2-desk-lg-0eeb03b5.jpg"
+                  alt="Women's blouse Gorgany photo"
+                />
+              </picture>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                Free-cut shirt.<br /><br />
+                It has a long sleeve with a lowered shoulder.<br /><br />
+                Cuffs with a clasp on 1 button are at the bottom of the sleeve.
+                Central front clasp in the center.<br /><br />
+                Classic standing collar.<br /><br />
+                Back on the yoke.<br /><br />
+                Fabric - linen<br /><br />
+                Technique - smooth (machine embroidery)<br /><br />
+                Threads - cotton
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="our-collection-item-text-container">
+          <h3 class="our-collection-item-title">Women's blouse Gorgany</h3>
+          <p class="our-collection-item-price">3350 UAH</p>
+        </div>
+      </li>
+      <li class="our-collection-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="our-collection-item-img-container">
+              <picture
+                ><source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-3-desk-lg-edb8ee0d.jpg 1x, /html_css_108_StingStorm/assets/collection-img-3-desk-lg@2x-e16c6a08.jpg 2x"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-3-desk-sm-8a453502.jpg 1x, /html_css_108_StingStorm/assets/collection-img-3-desk-sm@2x-42f0d563.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-3-tab-525bc17e.jpg 1x, /html_css_108_StingStorm/assets/collection-img-3-tab@2x-c82ff89c.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-3-mob-27c8e50a.jpg 1x, /html_css_108_StingStorm/assets/collection-img-3-mob@2x-3df7d75a.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html_css_108_StingStorm/assets/collection-img-3-desk-lg-edb8ee0d.jpg"
+                  alt="Women's blouse Crimea photo"
+                />
+              </picture>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                Shirt of a straight silhouette, with voluminous sleeves with
+                assemblies.<br /><br />
+                The bottom of the sleeves are gathered into wide cuffs and
+                fastened with buttons.<br /><br />
+                Front bar, fastens with buttons.<br /><br />
+                Wide flat collar.<br /><br />
+                The fabric is linen Execution technique - plain (machine
+                embroidery)<br /><br />
+                Threads are cotton
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="our-collection-item-text-container">
+          <h3 class="our-collection-item-title">Women's blouse Crimea</h3>
+          <p class="our-collection-item-price">4000 UAH</p>
+        </div>
+      </li>
+      <li class="our-collection-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="our-collection-item-img-container">
+              <picture
+                ><source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-4-desk-lg-2833e6ea.jpg 1x, /html_css_108_StingStorm/assets/collection-img-4-desk-lg@2x-f1459e79.jpg 2x"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-4-desk-sm-0caea852.jpg 1x, /html_css_108_StingStorm/assets/collection-img-4-desk-sm@2x-70e72e14.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-4-tab-875f1a43.jpg 1x, /html_css_108_StingStorm/assets/collection-img-4-tab@2x-c9c08ff1.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-4-mob-2c98873f.jpg 1x, /html_css_108_StingStorm/assets/collection-img-4-mob@2x-3c9bfc34.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html_css_108_StingStorm/assets/collection-img-4-desk-lg-2833e6ea.jpg"
+                  alt="Men's shirt Verkhovina photo"
+                />
+              </picture>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                The shirt is straight and voluminous.<br /><br />
+                The central placket has hidden buttons.<br /><br />The classic
+                folding stand collar is fastened with a wooden button.<br /><br />
+                Various machine embroidery techniques were used to imitate hand
+                stitches.<br /><br />
+                The fabric is linen<br /><br />
+                The execution technique is smooth<br /><br />
+                Threads - cotton
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="our-collection-item-text-container">
+          <h3 class="our-collection-item-title">Men's shirt Verkhovina</h3>
+          <p class="our-collection-item-price">3100 UAH</p>
+        </div>
+      </li>
+      <li class="our-collection-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="our-collection-item-img-container">
+              <picture
+                ><source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-5-desk-lg-4104d5bf.jpg 1x, /html_css_108_StingStorm/assets/collection-img-5-desk-lg@2x-050fc5d4.jpg 2x"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-5-desk-sm-aa792da9.jpg 1x, /html_css_108_StingStorm/assets/collection-img-5-desk-sm@2x-1a90b93b.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-5-tab-9054aad1.jpg 1x, /html_css_108_StingStorm/assets/collection-img-5-tab@2x-3632e35f.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-5-mob-0f10d739.jpg 1x, /html_css_108_StingStorm/assets/collection-img-5-mob@2x-bdf49c13.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html_css_108_StingStorm/assets/collection-img-5-desk-lg-4104d5bf.jpg"
+                  alt="Mountain men's shirt photo"
+                />
+              </picture>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                A straight shirt with a stand-up collar, a slit in the front
+                with a button fastening.<br /><br />
+                The collar, hem and cuffs are decorated with embroidery.<br /><br />
+                Back with a yoke.<br /><br />
+                The fabric is linen<br /><br />
+                The execution technique is smooth<br /><br />
+                Threads - cotton
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="our-collection-item-text-container">
+          <h3 class="our-collection-item-title">Mountain men's shirt</h3>
+          <p class="our-collection-item-price">3300 UAH</p>
+        </div>
+      </li>
+      <li class="our-collection-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="our-collection-item-img-container">
+              <picture
+                ><source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-6-desk-lg-e439e1d7.jpg 1x, /html_css_108_StingStorm/assets/collection-img-6-desk-lg@2x-7074d647.jpg 2x"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-6-desk-sm-b6645933.jpg 1x, /html_css_108_StingStorm/assets/collection-img-6-desk-sm@2x-c0905083.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-6-tab-bd390ab9.jpg 1x, /html_css_108_StingStorm/assets/collection-img-6-tab@2x-826a827f.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html_css_108_StingStorm/assets/collection-img-6-mob-ed643545.jpg 1x, /html_css_108_StingStorm/assets/collection-img-6-mob@2x-8f02cbd8.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html_css_108_StingStorm/assets/collection-img-6-desk-lg-e439e1d7.jpg"
+                  alt="Men's shirt Yasen photo"
+                />
+              </picture>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                A men's shirt with a straight silhouette and set-in sleeves.<br /><br />
+                The collar is stand-up.<br /><br />
+                There is a central slit with a button closure.<br /><br />
+                There is a yoke on the back.<br /><br />
+                The collar, front placket, and sleeve cuffs are embroidered.<br /><br />
+                Fabric - linen<br /><br />
+                Technique - flat stitch (machine embroidery)<br /><br />
+                Threads - cotton
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="our-collection-item-text-container">
+          <h3 class="our-collection-item-title">Men's shirt Yasen</h3>
+          <p class="our-collection-item-price">1700 UAH</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+      <!-- ====== Your Order -- Julia Solomakha -- Dev ====== -->
+      <section class="order section-padding">
+  <div class="order-bground"></div>
+  <div class="container is-order">
+    <div class="order-wrap">
+      <h2 class="order-title section-title" id="customer-order">
+        <span class="brand-text-accent">Your order </span>is our priority:
+        Personalized approach and quality of service
+      </h2>
+
+      <form name="order-form">
+        <label class="form-field">
+          <input
+            type="text"
+            name="user-name"
+            class="form-info"
+            placeholder="Enter your full name"
+            required
+            autocapitalize="words"
+            minlength="2"
+            pattern="^[a-zA-Z0-9]+( [a-zA-Z0-9]+){0,2}$"
+            title="John Fitzgerald Kennedy"
+          />
+        </label>
+        <label class="form-field">
+          <input
+            type="email"
+            name="user-email"
+            class="form-info"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+        <label class="form-field-com">
+          <textarea
+            name="comments"
+            class="form-info form-comments"
+            placeholder="Comments"
+          ></textarea>
+        </label>
+        <button type="submit" class="order-btn main-btn">
+          Send
+          <svg class="order-btn-icon" width="26" height="10">
+            <use href="/html_css_108_StingStorm/assets/icons-80852323.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+
+    <picture
+      class="order-product"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
+      <source
+        srcset="/html_css_108_StingStorm/assets/your-order-img-desk-lg-c34245c8.jpg 1x, /html_css_108_StingStorm/assets/your-order-img-desk-lg@2x-8970a212.jpg 2x"
+        media="(min-width:1440px)"
+      />
+      <source
+        srcset="/html_css_108_StingStorm/assets/your-order-img-desk-sm-f231b417.jpg 1x, /html_css_108_StingStorm/assets/your-order-img-desk-sm@2x-843b5142.jpg 2x"
+        media="(min-width:1280px)"
+      />
+      <source
+        srcset="/html_css_108_StingStorm/assets/your-order-img-tab-8dbdd4f9.jpg 1x, /html_css_108_StingStorm/assets/your-order-img-tab@2x-471e420a.jpg 2x"
+        media="(min-width:768px)"
+      />
+
+      <img
+        src="/html_css_108_StingStorm/assets/your-order-img-tab-8dbdd4f9.jpg"
+        class="order-product-image"
+        alt="the-company's-product"
+      />
+    </picture>
+  </div>
+</section>
+
+
+      <!-- ====== Testimonials -- Alina Lanovetska -- Dev ====== -->
+      <section class="revius-block" id="testimonials">
+  <div class="container">
+    <h2 class="revius-title section-title">Testimonials</h2>
+    <ul class="revius-list">
+      <li class="revius-item">
+        <img
+          class="revius-foto"
+          srcset="/html_css_108_StingStorm/assets/customer-maria@2x-f6602b84.png 2x"
+          src="/html_css_108_StingStorm/assets/customer-maria-5a1ae234.png"
+          alt="Maria foto"
+          width="64"
+          height="64"
+        />
+        <h3 class="revius-item-title">Maria Tkachuk</h3>
+        <p class="revius-text">
+          I was pleasantly surprised by the variety of embroidery offered by
+          Vyshyvanka Vibes. They have models for every taste - from classic to
+          modern. I bought an embroidered dress to celebrate a special occasion
+          and received impeccable service and refinement in every detail.
+        </p>
+      </li>
+      <li class="revius-item revius-hide-phone">
+        <img
+          class="revius-foto"
+          srcset="/html_css_108_StingStorm/assets/customer-sergey@2x-5139c809.png 2x"
+          src="data:image/png;base64,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"
+          alt="Sergey foto"
+          width="64"
+          height="64"
+        />
+        <h3 class="revius-item-title">Sergey Rybachok</h3>
+        <p class="revius-text">
+          Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
+          simply masterpieces! I fell in love with the quality of the materials
+          and the skill of the artisans behind each product. This is my favorite
+          embroidery shop where I always find something special and unique.
+        </p>
+      </li>
+      <li class="revius-item revius-hide-phone revius-hide-ipad">
+        <img
+          class="revius-foto"
+          srcset="/html_css_108_StingStorm/assets/customer-natalia@2x-cde6e7bb.png 2x"
+          src="/html_css_108_StingStorm/assets/customer-natalia-67f1f491.png"
+          alt="Natalia foto"
+          width="64"
+          height="64"
+        />
+        <h3 class="revius-item-title">Natalia Chatuk</h3>
+        <p class="revius-text">
+          Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian
+          culture. Their embroidery reflects the spirit and traditions of our
+          people. I not only buy embroidered shirts for myself, but also give
+          them to my friends abroad as a symbol of our beauty and national
+          pride.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    </main>
+
+    <!-- ====== Footer -- Oleh Zakharchenko -- Dev ====== -->
+    <footer class="footer animate-on-scroll">
+  <div class="container">
+    <nav class="footer-nav-container">
+      <ul class="footer-nav-list">
+        <li class="footer-nav-items">
+          <a href="#about-us" class="footer-nav-link">About us</a>
+        </li>
+
+        <li class="footer-nav-items">
+          <a href="#our-collection " class="footer-nav-link">Our collection </a>
+        </li>
+
+        <li class="footer-nav-items">
+          <a href="#customer-order" class="footer-nav-link">Customer order</a>
+        </li>
+
+        <li class="footer-nav-items">
+          <a href="#testimonials" class="footer-nav-link">Testimonials</a>
+        </li>
+      </ul>
+    </nav>
+
+    <p class="footer-slogan animate-on-scroll">
+      A touch of
+      <span class="footer-text-accent animate-on-scroll">Ukrainian</span>
+      culture in every embroidery
+    </p>
+  </div>
+</footer>
+
+
+    <!-- ============ Backdrop & Modals ============ -->
+
+    <!-- ====== Mobile Modal Menu -- Bohdan Haponiuk -- SCRUM ====== -->
+    <div class="modal-menu-container js-menu-container" id="mobile-menu">
+  <div class="address-button-container">
+    <address class="mobile-menu-address">
+      <a class="mobile-menu-phone" href="tel:+380684439426"
+        >+380 (68) 443-94-26</a
+      >
+    </address>
+
+    <button type="button" class="close-mobile-menu-button js-close-menu">
+      <svg class="close-mobile-menu-icon">
+        <use href="/html_css_108_StingStorm/assets/icons-80852323.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+  </div>
+  <div>
+    <ul class="mobile-link-list">
+      <li class="mobile-link-item">
+        <a class="mobili-link-menu" href="#about-us">About us</a>
+      </li>
+      <li class="mobile-link-item">
+        <a class="mobili-link-menu" href="#our-collection">Our collection </a>
+      </li>
+      <li class="mobile-link-item">
+        <a class="mobili-link-menu" href="#customer-order">CUSTOMER ORDER</a>
+      </li>
+      <li class="mobile-link-item">
+        <a class="mobili-link-menu" href="#testimonials">TEstimonials</a>
+      </li>
+    </ul>
+  </div>
+  <div class="modal-menu-bg-container"></div>
+</div>
+
+
+    <!-- ============= JavaScript ============= -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    
+    
+    
+  </body>
+</html>
